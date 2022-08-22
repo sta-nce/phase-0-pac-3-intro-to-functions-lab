@@ -21,7 +21,7 @@ function logWhisper(string) {
 
 logWhisper("Hello");
 
-function sayHiToHeadphonedRoommate(string) {
+const sayHiToHeadphonedRoommate = (string) => {
     if (string === string.toLowerCase()){
         return 'I can\'t hear you!';
         }
